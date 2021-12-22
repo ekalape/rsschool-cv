@@ -26,9 +26,9 @@ Self-educated passionate about computer science and especially programming, aspi
 
 ## Languages
 
-Russian: Native\
-English: Fluent\
-Italian: Fluent
++Russian: Native\
++English: Fluent\
++Italian: Fluent
 
 ## Education
 
