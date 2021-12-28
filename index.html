@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Curriculum Vitae</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ekalape" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Curriculum Vitae</title>
   </head>
+
   <body>
-    body
+    <header>
+      <img class="foto" src="foto.jpg" alt="Photo" />
+      <h1>Ekaterina Lapenkova</h1>
+    </header>
+
+    <main>
+      <nav class="contacts">
+        Contacts:
+        <li>Tel. (39)555-55-55</li>
+        <li>E-mail: ekalape@outlook.it</li>
+        <li>discord: ekalape#6701</li>
+      </nav>
+      <div class="self">
+        <h2>Self information</h2>
+        Self-educated passionate about computer science and especially
+        programming, aspiring and easy to learn, disciplined and precise, with
+        excellent interpersonal skills, enthusiast to be engaged in the wide
+        variety of tasks.
+      </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Javascript</li>
+          <li>HTML 5 and CSS 3</li>
+          <li>GIT</li>
+          <li>Java, Kotlin, Android</li>
+          <li>Designer skills</li>
+        </ul>
+      </div>
+      <div class="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>Russian: Native</li>
+          <li>English: Fluent</li>
+          <li>Italian: Fluent</li>
+        </ul>
+      </div>
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Unfinished higher education;</li>
+          <li>Artistic school;</li>
+          <li>
+            Self educated:
+            <ul>
+              <li>HTML 5, CSS 3</li>
+              <li>Java, Android Udemy courses</li>
+              <li>RSS Javascript courses</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="code">
+      <h2>Code Example</h2>
+      <pre>
+        function solution(str){
+           if (str.length % 2 != 0) { 
+             str += "_"; }
+             
+        let arr = []; 
+        let counter = 0; 
+        while (counter &lt str.length){
+          arr.push(str.substr(counter, 2)); 
+          counter += 2; } 
+
+        return arr; }
+      </pre>
+    </div>
+    <div class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/ekalape/rsschool-cv">CV-Project</a></li>
+      </ul>
+    </div>
+    <footer>
+      <a href="https://github.com/ekalape/rsschool-cv">GitHub</a>
+      <a href="https://rs.school/js/" class="linkrss"
+        ><img src="rs_school_js.svg" alt="RSSchool" class="rsschool"
+      /></a>
+    </footer>
   </body>
 </html>
