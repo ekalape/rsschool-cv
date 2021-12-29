@@ -1,3 +1,111 @@
+:root {
+  padding: 0px;
+  margin: 0px;
+
+  --blue-color: #1c4672;
+  --dark-blue-color: #0c2a49;
+  --grey-color: #d8d6dd;
+  --light-blue-color: #397aa0;
+}
+
 body {
-  background-color: rgb(179, 198, 214);
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  background-color: var(--blue-color);
+  color: white;
+  height: 100px;
+}
+
+main {
+  background-color: var(--grey-color);
+  color: var(--blue-color);
+}
+
+main div {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 5px solid white;
+}
+
+h1 {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+h2 {
+  color: var(--dark-blue-color);
+  margin: 2px;
+  padding-left: 17px;
+}
+.self h2 {
+  padding-bottom: 15px;
+}
+.self p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills h2,
+.languages h2,
+.education h2 {
+  padding-top: 7px;
+}
+
+pre {
+  width: 400px;
+  padding: 30px;
+  border: 1px dotted var(--light-blue-color);
+}
+
+li {
+  list-style-type: square;
+}
+.contacts {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: small;
+}
+.contacts > h2 {
+  padding-left: 40px;
+  height: 14px;
+}
+.contacts li {
+  list-style-type: none;
+}
+
+.foto {
+  width: 150px;
+  float: left;
+  margin: 20px;
+  border: 5px solid white;
+}
+.projects {
+  border: none;
+}
+
+.rsschool {
+  width: 50px;
+  float: left;
+}
+
+footer {
+  padding: 20px;
+  background-color: var(--blue-color);
+  color: white;
+  height: 60px;
+}
+nav #mygithub {
+  float: left;
+}
+nav > * {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  float: right;
 }
