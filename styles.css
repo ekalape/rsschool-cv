@@ -6,48 +6,66 @@
   --dark-blue-color: #0c2a49;
   --grey-color: #d8d6dd;
   --light-blue-color: #397aa0;
+  --font: "Merriweather", serif;
 }
 
 body {
   max-width: 800px;
   margin: auto;
-  font-family: "Merriweather", serif;
-  font-weight: 300;
+  font-family: var(--font);
+  font-weight: 400;
   font-size: 14px;
 }
 
 header {
-  background-color: var(--blue-color);
+  height: 110px;
   color: white;
-  height: 100px;
+  background-color: var(--blue-color);
+}
+
+nav .navigation,
+.contacts li {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+  padding-right: 25px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.navigation a {
+  color: white;
 }
 
 main {
-  background-color: var(--grey-color);
   color: var(--blue-color);
+  background-color: var(--grey-color);
 }
 
 main div {
   padding: 5px;
+  padding-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   border-bottom: 5px solid white;
 }
 
 h1 {
-  height: 100px;
-  line-height: 100px;
+  height: 50px;
+  line-height: 50px;
   white-space: nowrap;
-  margin: 20px;
-  font-family: "Merriweather", serif;
-  font-weight: bold;
+  margin: 15px;
+  padding-top: 25px;
+  margin-bottom: 5px;
+
+  font-weight: 700;
 }
 
 h2 {
-  color: var(--dark-blue-color);
   margin: 2px;
-  padding-left: 32px;
-  font-family: "Merriweather", serif;
+  padding-left: 30px;
+  color: var(--dark-blue-color);
 }
 
 .self p {
@@ -58,40 +76,36 @@ h2 {
 .skills h2,
 .languages h2,
 .education h2 {
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 pre {
   width: 400px;
-  padding: 30px;
-  border: 2px dotted white;
-  margin-left: 20px;
+  padding: 20px;
   padding-right: 40px;
+  margin-left: 20px;
+  border: 2px dotted white;
 }
 
 li {
   list-style-type: square;
 }
 .contacts {
-  padding-bottom: 15px;
-
+  padding-bottom: 10px;
   margin-bottom: 15px;
   font-size: small;
 }
 .contacts > h2 {
-  padding-top: 5px;
-  padding-left: 45px;
   height: 14px;
+  padding-top: 10px;
+  padding-left: 45px;
   font-size: 18px;
-}
-.contacts li {
-  list-style-type: none;
 }
 
 .foto {
-  width: 150px;
   float: left;
-  margin: 20px;
+  width: 150px;
+  margin: 25px;
   border: 5px solid white;
 }
 .projects {
@@ -100,31 +114,30 @@ li {
 
 .rsschool {
   width: 50px;
-  border-left: 2px solid var(--light-blue-color);
   padding-left: 5px;
   padding-top: 10px;
+  border-left: 2px solid var(--light-blue-color);
 }
 
 footer {
-  padding: 20px;
-  background-color: var(--blue-color);
-  color: white;
   height: 60px;
+  padding: 20px;
+  color: white;
+  background-color: var(--blue-color);
 }
-nav #mygithub {
+#mygithub {
   float: left;
   padding-left: 30px;
 }
-nav > * {
+footer > * {
   display: block;
-  margin: auto;
   float: right;
+  margin: auto;
   padding-top: 22px;
 }
 
 main a {
   color: var(--dark-blue-color);
-  font-family: "Merriweather", serif;
 }
 main a:hover {
   color: var(--light-blue-color);
@@ -140,9 +153,8 @@ a:active {
   color: white;
 }
 footer span {
-  color: var(--light-blue-color);
-  font-size: 14px;
   padding-right: 5px;
-
   padding-top: 20px;
+  font-size: 14px;
+  color: var(--light-blue-color);
 }
