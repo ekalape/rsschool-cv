@@ -23,3 +23,31 @@ Self-educated passionate about computer science and especially programming, aspi
 - GIT
 - Java, Kotlin, Android
 - Artistic skills
+
+## Languages
+
+Russian: Native\
+English: Fluent\
+Italian: Fluent
+
+## Education
+
+Unfinished higher education;\
+Artistic school;\
+Self educated
+
+- HTML, CSS
+- Java, Android Udemy courses
+- RSS Javascript courses
+
+## Code Example
+
+<!-- link to be defined -->
+
+![screenshot with code example from codewars.com](path)
+
+## Projects
+
+<!-- temporary link -->
+
+[CV](https://github.com/ekalape/rsschool-cv)
